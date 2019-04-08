@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'NewMarketLib.framework'
   s.dependency 'AFNetworking', '~> 3.0'
+  s.dependency 'MJExtension'
 end
