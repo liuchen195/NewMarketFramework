@@ -14,4 +14,6 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 3.0'
   s.dependency 'MJExtension'
   s.dependency 'SDWebImage'
+  s.dependency 'BlocksKit','~>2.2.5'
+  s.dependency 'MJRefresh'
 end
