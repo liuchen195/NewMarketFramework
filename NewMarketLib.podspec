@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_framework   = 'NewMarketLib.framework'
   s.dependency 'AFNetworking', '~> 3.0'
   s.dependency 'MJExtension'
+  s.dependency 'SDWebImage'
 end
