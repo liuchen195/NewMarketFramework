@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.resource = 'NewMarketLib.bundle'
 #s.resource_bundles = {'NewMarketLib' => ['NewMarketLib.bundle','SVProgressHUD.bundle']}
   s.frameworks = ['Foundation','AVFoundation','AudioToolbox','WebKit','CoreData','CFNetwork','ImageIO','MobileCoreServices','CoreGraphics','Security','SystemConfiguration','UIKit','QuartzCore','MessageUI','CoreImage','Accelerate']
-
+  s.dependency 'MJRefresh'
+  s.dependency 'SVProgressHUD'
 end
