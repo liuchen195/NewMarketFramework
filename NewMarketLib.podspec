@@ -11,9 +11,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'NewMarketLib.framework'
-  s.dependency 'AFNetworking', '~> 3.0'
-  s.dependency 'MJExtension'
-  s.dependency 'SDWebImage', '~>4.4.6'
-  s.dependency 'BlocksKit','~>2.2.5'
-  s.dependency 'MJRefresh'
+  s.resource = 'NewMarketLib.bundle'
+#s.resource_bundles = {'NewMarketLib' => ['NewMarketLib.bundle']}
+  s.frameworks = ['Foundation','AVFoundation','AudioToolbox','WebKit','CoreData','CFNetwork','ImageIO','MobileCoreServices','CoreGraphics','Security','SystemConfiguration','UIKit','QuartzCore','MessageUI','CoreImage','Accelerate']
+
 end
