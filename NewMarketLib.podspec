@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'NewMarketLib.framework'
 #s.resource = 'NewMarketLib.bundle'
-#s.resource_bundles = {'NewMarketLib' => ['NewMarketLib.bundle','PodNewMarketLib_SVProgressHUD.bundle','PodNewMarketLib_MJRefresh.bundle']}
+  s.resource_bundles = {'NewMarketLib' => ['NewMarketLib.bundle','PodNewMarketLib_SVProgressHUD.bundle','PodNewMarketLib_MJRefresh.bundle']}
   s.frameworks = ['Foundation','AVFoundation','AudioToolbox','WebKit','CoreData','CFNetwork','ImageIO','MobileCoreServices','CoreGraphics','Security','SystemConfiguration','UIKit','QuartzCore','MessageUI','CoreImage','Accelerate','AssetsLibrary','Photos']
 #s.dependency 'MJRefresh'
 #s.dependency 'SVProgressHUD'
