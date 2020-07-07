@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source = { :path => 'https://github.com/liuchen195/NewMarketFramework.git' , :tag => s.version.to_s}
 
   s.ios.deployment_target    = '9.0'
-  s.ios.vendored_framework   = 'ios/NewMarketLib.framework'
+  s.ios.vendored_framework   = 'NewMarketLib.framework'
   s.resource = 'NewMarketLib.bundle'
   s.frameworks = ['Foundation','AVFoundation','AudioToolbox','WebKit','CoreData','CFNetwork','ImageIO','MobileCoreServices','CoreGraphics','Security','SystemConfiguration','UIKit','QuartzCore','MessageUI','CoreImage','Accelerate','AssetsLibrary','Photos']
 end
