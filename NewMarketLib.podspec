@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "NewMarketLib"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.summary = "A short description of NewMarketLib."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"liuchen195@163.com"=>"541102613@qq.com"}
